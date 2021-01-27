@@ -6,3 +6,6 @@ GitHub, Inc. is a provider of Internet hosting for software development and vers
 
 ## Git VS Github
 <img src="https://github.com/kashika0112/IntroductionToGit/blob/main/Images/pic-2.jpeg">
+
+<img src="https://github.com/kashika0112/IntroductionToGit/blob/main/Images/pic-3.jpeg">
+

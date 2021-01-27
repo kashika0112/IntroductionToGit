@@ -1,0 +1,14 @@
+$ cd /E
+$ cd Repos/
+$ ls
+$ cd IntroductionToGit/
+$ code . (opens Visual Studio Code)
+$ git log
+$ git status
+$ git remote -v
+$ git branch
+$ git branch <name>
+$ git checkout <name branch>
+$ git add. or $ git add <file name>
+$ git commit -m "Description"
+$ git push origin <branch name>
