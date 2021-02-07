@@ -1,0 +1,35 @@
+STEPS:
+1. Fork the original directory
+2. cd to the directory where you wish to clone your repository
+3. Clone the forked repository using
+	$git clone <url of forked repository>
+4. cd to that repository and then check status to see if everything is fine
+	$cd <repository name>
+	$git status
+5. Add a git remote(say upstream) for the original repository
+	$git remote add <name> <url>
+   Check if everything is fine using
+	$git remote -v
+6. Update any changes using
+	$git checkout main
+	$git pull upstream main
+	$git push origin main
+   Enter username or password if prompt.
+7. Create a branch to work on and checkout/switch to it
+	$git branch
+	$git branch <name>
+	$git checkout <branch-name>
+8. Make changes to your repository-addition/modification of files etc
+9. Check status to see whether only required files have been changed.
+	$git status
+10. Perform the following commands
+	$git add .
+	$git commit -m "mssg"
+	$git push origin <branch-name>
+11. Open the main repository. It must be showing a new branch is pushed.Click on pull request. Create a pull request.
+12. After the PR gets merged,open git bash again. Update your origin and local main with the changes in upstream using
+	$git checkout main
+	$git pull upstream main
+	$git push origin main
+13. To set a different url in remote
+	$git remote set-url <remote-name><new-remote-url>
